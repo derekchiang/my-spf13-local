@@ -2,7 +2,9 @@ map <c-k> :NERDTreeFind<CR>
 nnoremap <silent> <Space> :nohlsearch<Bar>:echo<CR>
 iunmap <Esc>
 set nolist
-unmap <C-e>
 let g:ycm_global_ycm_extra_conf = '$HOME/.ycm_extra_conf.py'
 set wrap
 set linebreak
+unmap <C-e>
+let g:EclimScalaValidate = 0
+map <C-g> :echo expand('%:p')<CR>

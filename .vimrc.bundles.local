@@ -1,3 +1,4 @@
 UnBundle 'honza/vim-snippets'
 UnBundle 'SirVer/ultisnips'
 UnBundle 'nathanaelkane/vim-indent-guides'
+Plugin 'rhysd/vim-clang-format'
